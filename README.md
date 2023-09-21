@@ -7,11 +7,6 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -19,18 +14,35 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
-
+ 
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
 
-- https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create a Resource Group in Azure ( Name it: RG-osTicket )
+- Create an Azure Virtual Machine Windows 10, 4 vCPUs
+    - Name: Vm-osticket
+    - Username: (Whatever You Chose)
+    - Password: (osTicketPassword1!) or (Whatever You Chose)
+- Open osTicket Installation Files: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+    - We will use these files to install osTicket and some of the dependencies  
 
 <h2>Installation Steps</h2>
+
+- Install / Enable IIS in Windows WITH CGI and Common HTTP Features
+     - World Wide Web Services -> Application Development Features ->
+     [X] CGI
+     [X] Common HTTP Features  
+
+
+
+    
+
+
+      
+
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
