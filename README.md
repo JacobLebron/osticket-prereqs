@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - Name: Vm-osticket
     - Username: (Whatever You Chose)
     - Password: (osTicketPassword1!) or (Whatever You Chose)
-- Open osTicket Installation Files: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+- Open osTicket [Installation Files](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
     - We will use these files to install osTicket and some of the dependencies  
 
 <h2>Installation Steps</h2>
@@ -32,14 +32,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install / Enable IIS in Windows WITH CGI and Common HTTP Features
      - World Wide Web Services -> Application Development Features ->
      [X] CGI
-     [X] Common HTTP Features  
+     [X] Common HTTP Features
+-  From [Installation Fil[es](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) download and install [PHP Manager for IIS](https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link)
+  
+       
+- From [Installation Files](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) download and install 
 
 
-https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link
-    
 
 
-      
+
+
+
 
 
 
