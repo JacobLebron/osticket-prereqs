@@ -30,9 +30,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 - Install / Enable IIS in Windows WITH CGI and Common HTTP Features
-     - World Wide Web Services -> Application Development Features ->
-     [X] CGI
-     [X] Common HTTP Features
+     - World Wide Web Services ->
+     - Application Development Features ->
+       
+       [X] CGI
+       
+       [X] Common HTTP Features
+       
 -  From [Installation files](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) download and install [PHP Manager for IIS](https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link)
   - From [Installation Files](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) download and install the [Rewrite Module](https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=share_link)
 - Create the directory C:\PHP
@@ -40,9 +44,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -  From [Installation files](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) download and install [VC_redist.x86.exe.](https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link)
 -  From [Installation files](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) download and install [MySQL 5.5.62](https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=share_link)
 
-    -Typical Setup ->
-   
-   -Launch Configuration Wizard (after install) ->
+    - Typical Setup ->
+    - Launch Configuration Wizard (after install) ->
+    - Standard Configuration ->
+    -Password1
+- Open IIS as an Admin
+- Register PHP from within IIS
+- Reload IIS (Open IIS, Stop and Start the server)
+- Install osTicket v1.15.8
+  - Download osTicket from the Installation Files Folder
+  - Extract and copy “upload” folder to c:\inetpub\wwwroot
+  - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
    
    
 
