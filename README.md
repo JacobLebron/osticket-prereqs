@@ -55,11 +55,45 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Download osTicket from the Installation Files Folder
   - Extract and copy “upload” folder to c:\inetpub\wwwroot
   - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
-   
-   
+- Reload IIS (Open IIS, Stop and Start the server)
+-  Go to sites -> Default -> osTicket
+    - On the right, click “Browse *:80”
+- Note that some extensions are not enabled
+    - Go back to IIS, sites -> Default -> osTicket
+    - Double-click PHP Manager
+    - Click “Enable or Disable an Extension”
+         - Enable: php_imap.dll
+         - Enable: php_intl.dll
+         - Enable: php_opcache.dll
+    - Refresh the osTicket site in your browse, observe the changes
+- Rename: ost-config.php
+     - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+     - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Assign Permissions: ost-config.php
+     - Disable inheritance -> Remove All
+     - New Permissions -> Everyone -> All
+- Continue Setting up osTicket in the browser (click Continue)
+     - Name Helpdesk
+     - Default email (receives email from customers)  
+- From the  [Installation files](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) download and install [HeidiSQL](https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit)
+     - Open Heidi SQL
+     - Create a new session, root/Password1
+     - Connect to the session
+     - Create a database called “osTicket”
+- Continue Setting up osticket in the browser
+     - MySQL Database: osTicket
+     - MySQL Username: root
+     - MySQL Password: Password1
+     - Click “Install Now!”
+ - Congratulations, hopefully it is installed with no errors!
 
 
- 
+
+
+
+
+
+
 
 
 
