@@ -86,12 +86,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
      - MySQL Password: Password1
      - Click “Install Now!”
  - Congratulations, hopefully it is installed with no errors!
+     - Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+ - End Users osTicket URL:
+     - http://localhost/osTicket
+      
+ - Clean up
+     - Delete: C:\inetpub\wwwroot\osTicket\setup
+     - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-
-
-
-
-
+ - Notes:
+     - Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+     - End Users osTicket URL: http://localhost/osTicket/ 
 
 
 
